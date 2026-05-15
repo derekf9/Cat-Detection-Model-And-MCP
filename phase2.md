@@ -2,7 +2,7 @@
 
 ## Goal
 Build the capture pipeline with a `SourceController` abstraction so the same code runs on
-the Pi (real camera), Mac/Windows (webcam or video file), and in tests (Mochi recordings).
+the Pi (real camera), Mac/Windows (webcam or video file), and in tests (Mimi recordings).
 
 ## Status
 - [ ] In progress
@@ -24,14 +24,14 @@ capture/
 |----------|---------|
 | Pi (real camera) | `python -m capture.capture_motion --source pi` |
 | Mac/Windows (webcam) | `python -m capture.capture_motion --source webcam` |
-| Mac/Windows (test video) | `python -m capture.capture_motion --source file --path data/test/mochi_morning.mp4` |
+| Mac/Windows (test video) | `python -m capture.capture_motion --source file --path data/test/mimi_morning.mp4` |
 
 ## Test Video Plan
 Record on Pi, use everywhere else:
-- `data/test/mochi_morning.mp4` — indoor, morning light
-- `data/test/mochi_door.mp4` — near the door (key for inside/outside logic)
-- `data/test/mochi_evening.mp4` — lower light conditions
-- `data/test/mochi_still.mp4` — Mochi sitting still (motion threshold tuning)
+- `data/test/mimi_morning.mp4` — indoor, morning light
+- `data/test/mimi_door.mp4` — near the door (key for inside/outside logic)
+- `data/test/mimi_evening.mp4` — lower light conditions
+- `data/test/mimi_still.mp4` — Mochi sitting still (motion threshold tuning)
 
 `data/test/` is gitignored — videos live locally or shared via Google Drive.
 

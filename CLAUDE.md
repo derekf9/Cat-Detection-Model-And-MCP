@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Raspberry Pi–based cat detection system that uses computer vision to identify and track a specific cat, backed by a Model Context Protocol (MCP) server so Claude Desktop can answer natural-language queries ("Did Mochi go out today?"). The system runs on a Pi 5 with an optional Coral USB Accelerator for fast ML inference.
+This is a Raspberry Pi–based cat detection system that uses computer vision to identify and track a specific cat, backed by a Model Context Protocol (MCP) server so Claude Desktop can answer natural-language queries ("Did Mimi go out today?"). The system runs on a Pi 5 with an optional Coral USB Accelerator for fast ML inference.
 
 See [ROADMAP.md](ROADMAP.md) for the full 8-phase development plan.
 
