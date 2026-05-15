@@ -1,0 +1,5 @@
+# Heavy ML training deps — use on laptop with GPU or Google Colab (Phase 5)
+# Install base first: pip install -r requirements.txt
+torch>=2.1.0
+torchvision>=0.16.0
+fastai>=2.7.13

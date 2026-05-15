@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Data — runtime output and large files, not for git
+data/snapshots/*
+data/test/*
+data/training/*
+!data/snapshots/.gitkeep
+!data/test/.gitkeep
+!data/training/.gitkeep
+
+# ML models — transfer via scp or DVC
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.h5
+*.tflite
+
+# Database
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Logs
+*.log
+logs/

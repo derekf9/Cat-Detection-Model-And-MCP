@@ -1,0 +1,15 @@
+# Computer vision & detection
+ultralytics>=8.0.0
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# MCP server
+mcp>=1.0.0
+
+# Web API (microservices - Phase 8+)
+fastapi>=0.110.0
+uvicorn>=0.27.0
+
+# Utilities
+python-dotenv>=1.0.0
